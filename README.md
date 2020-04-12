@@ -5,7 +5,7 @@ This is a fork of Svelte's project template to enable usage of Tailwindcss. Refe
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sarioglu/svelte-tailwindcss-template svelte-app
+npx degit padunk/svelte-tailwindcss-template svelte-app
 cd svelte-app
 ```
 
@@ -18,12 +18,14 @@ Install the dependencies...
 ```bash
 cd svelte-app
 npm install
+yarn install
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
+yarn dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
